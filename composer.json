@@ -1,0 +1,31 @@
+{
+	"name": "juzna/nette-VisualPaginator",
+	"description": "Simple paginator",
+	"keywords": ["paginator", "nette"],
+	"homepage": "http://addons.nette.org/cs/visualpaginator",
+	"license": "BSD-3",
+	"authors": [
+		{
+			"name": "David Grudl",
+			"email": "david@grudl.com"
+		},
+		{
+			"name": "Jan Dolecek",
+			"email": "juzna.cz@gmail.com"
+		}
+	],
+	"autoload": {
+		"classmap": [ "VisualPaginator.php" ]
+	},
+	"require": {
+		"nette/nette": "2.0.*"
+	},
+	"extra": {
+		"nette": {
+			"assets": { },
+			"assets-optional": {
+				"css": [ "example.css" ]
+			}
+		}
+	}
+}
