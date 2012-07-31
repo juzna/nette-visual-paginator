@@ -1,5 +1,6 @@
 {
 	"name": "juzna/nette-visual-paginator",
+	"type": "nette-addon",
 	"description": "Simple paginator",
 	"keywords": ["paginator", "nette"],
 	"homepage": "http://addons.nette.org/cs/visualpaginator",
@@ -18,7 +19,8 @@
 		"classmap": [ "VisualPaginator.php" ]
 	},
 	"require": {
-		"nette/nette": "2.0.*"
+		"nette/nette": "2.0.*",
+		"nette/addon-installer": "dev-master"
 	},
 	"extra": {
 		"nette": {
