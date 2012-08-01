@@ -20,7 +20,7 @@
 	},
 	"require": {
 		"nette/nette": "2.0.*",
-		"nette/addon-installer": "dev-master"
+		"nette/addon-installer": "@dev"
 	},
 	"extra": {
 		"nette": {
